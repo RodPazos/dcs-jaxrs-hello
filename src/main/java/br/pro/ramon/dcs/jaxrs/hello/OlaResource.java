@@ -9,7 +9,7 @@ import javax.ws.rs.QueryParam;
 public class OlaResource {
 
     @GET
-    @Produces("text/html")
+    @Produces("text/html; charset=UTF-8")
     public String getOlaMundo(@QueryParam("nome") String nome) {
         if (nome == null || nome.trim().isEmpty()) {
             nome = "mundo";
