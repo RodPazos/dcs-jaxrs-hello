@@ -13,7 +13,7 @@ public class OlaResource {
             nome = "mundo";
         }
 
-        return "Olá, " + nome + "!";
+        return "Olá, <strong>" + nome + "</strong>!";
     }
 
 }
